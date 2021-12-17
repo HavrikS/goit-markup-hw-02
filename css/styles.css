@@ -1,0 +1,74 @@
+body {
+  background-color: #e5e5e5;
+  font-family: Roboto, sans-serif;
+  text-decoration-color: #212121;
+}
+.list {
+  list-style: none;
+}
+/* акцент #2196F3 */
+/* цвет заголовков #212121 */
+/* вторичный цвет #757575 */
+/* bcg #E5E5E5 */
+/* bcg героя #2F303A */
+/* button bcg #F5F4FA */
+
+/* ------------------Header---------------------------- */
+.page-header {
+  background-color: #ffffff;
+}
+.web {
+  color: #2196f3;
+}
+.studio {
+  color: black;
+}
+.site-nav .link {
+  color: #212121;
+}
+.contacts .link {
+  color: #757575;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #2196f3;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+/* ------------------------hero----------------------------- */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+.hero-btn {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* ---------------------section------------------------------ */
+
+.features-text {
+  color: #757575;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+.team-text {
+  color: #757575;
+}
+
+/* ---------------------footer----------------------------- */
+
+.address {
+  background-color: #2f303a;
+}
+.address-addres {
+  color: #ffffff;
+}
+.address-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
