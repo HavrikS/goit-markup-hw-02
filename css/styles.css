@@ -8,10 +8,14 @@
 body {
   background-color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
-  text-decoration-color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 .list {
   list-style: none;
+}
+a {
+  font-style: normal;
+  text-decoration: none;
 }
 
 /* ------------------Header---------------------------- */
@@ -52,7 +56,7 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--accent-color);
+  background-color: #188ce8;
 }
 /* ---------------------section------------------------------ */
 
@@ -64,9 +68,6 @@ body {
   background-color: #f5f4fa;
 }
 
-.team-item {
-  background-color: var(--primary-white-color);
-}
 .team-text {
   color: var(--text-color);
 }
@@ -76,11 +77,35 @@ body {
 .address {
   background-color: #2f303a;
 }
-.address-addres {
+.address-addres,
+.address-contacts {
   color: var(--primary-white-color);
 }
-.address-contacts {
+.address-contacts:hover,
+.address-contacts:hover {
   color: rgba(255, 255, 255, 0.6);
 }
 
 /* -------------------Portfolio-------------------------- */
+
+.filter-btn-main {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.filter-btn-second {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+}
+.filter-btn-second:hover,
+.filter-btn-second:host {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* ------------------Карточки------------------------- */
+.list .title {
+  color: var(--primary-text-color);
+}
+.list .after-title {
+  color: var(--text-color);
+}
