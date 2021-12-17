@@ -155,10 +155,22 @@ a {
 .filter-btn-main {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .filter-btn-second {
   background-color: #f5f4fa;
   color: var(--primary-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .filter-btn-second:hover,
 .filter-btn-second:host {
@@ -166,10 +178,17 @@ a {
   color: var(--primary-white-color);
 }
 
-/* ------------------Карточки------------------------- */
+/* --Карточки-- */
 .list .title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .list .after-title {
   color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
