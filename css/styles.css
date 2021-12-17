@@ -19,7 +19,13 @@ a {
 }
 
 /* ------------------Header---------------------------- */
-
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 .web {
   color: var(--accent-color);
 }
@@ -28,12 +34,21 @@ a {
 }
 .site-nav .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link.current {
   color: var(--accent-color);
 }
 .contacts .link {
   color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -49,19 +64,59 @@ a {
 }
 .hero-title {
   color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-btn {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #188ce8;
 }
 /* ---------------------section------------------------------ */
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 
 .features-text {
   color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.our-work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-after-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team {
@@ -70,12 +125,21 @@ a {
 
 .team-text {
   color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* ---------------------footer----------------------------- */
 
 .address {
   background-color: #2f303a;
+}
+.address-informations {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .address-addres,
 .address-contacts {
