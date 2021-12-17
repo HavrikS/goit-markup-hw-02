@@ -1,22 +1,14 @@
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   font-family: Roboto, sans-serif;
   text-decoration-color: #212121;
 }
 .list {
   list-style: none;
 }
-/* акцент #2196F3 */
-/* цвет заголовков #212121 */
-/* вторичный цвет #757575 */
-/* bcg #E5E5E5 */
-/* bcg героя #2F303A */
-/* button bcg #F5F4FA */
 
 /* ------------------Header---------------------------- */
-.page-header {
-  background-color: #ffffff;
-}
+
 .web {
   color: #2196f3;
 }
@@ -48,6 +40,10 @@ body {
   background-color: #2196f3;
   color: #ffffff;
 }
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
 /* ---------------------section------------------------------ */
 
 .features-text {
@@ -56,6 +52,10 @@ body {
 
 .team {
   background-color: #f5f4fa;
+}
+
+.team-item {
+  background-color: #ffffff;
 }
 .team-text {
   color: #757575;
