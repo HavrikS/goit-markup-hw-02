@@ -13,10 +13,6 @@ body {
 .list {
   list-style: none;
 }
-a {
-  font-style: normal;
-  text-decoration: none;
-}
 
 /* ------------------Header---------------------------- */
 .logo {
@@ -25,6 +21,7 @@ a {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .web {
   color: var(--accent-color);
@@ -39,6 +36,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link.current {
   color: var(--accent-color);
@@ -49,6 +47,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -82,12 +81,24 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #188ce8;
 }
 /* ---------------------section------------------------------ */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -140,10 +151,12 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 .address-addres,
 .address-contacts {
   color: var(--primary-white-color);
+  text-decoration: none;
 }
 .address-contacts:hover,
 .address-contacts:hover {
@@ -161,6 +174,7 @@ a {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .filter-btn-second {
   background-color: #f5f4fa;
@@ -171,6 +185,7 @@ a {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .filter-btn-second:hover,
 .filter-btn-second:host {
@@ -185,10 +200,14 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-decoration: none;
 }
 .list .after-title {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+.card {
+  text-decoration: none;
 }
